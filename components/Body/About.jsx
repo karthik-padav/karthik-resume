@@ -1,6 +1,5 @@
 export default function About(props) {
   const { data } = props;
-  console.log(props, "about me props");
   const currentDate = new Date();
   const started = new Date("Jan 01 2016");
   const diff =
@@ -9,7 +8,6 @@ export default function About(props) {
     12 * (currentDate.getFullYear() - started.getFullYear());
 
   const myExperiance = (diff / 12).toFixed(1);
-  console.log(myExperiance, "monthTillDate123");
 
   return (
     <div className="bg-white rounded-lg overflow-hidden p-10">

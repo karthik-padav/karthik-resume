@@ -2,7 +2,6 @@ import DP from "assets/images/dp.jpeg";
 import Image from "next/image";
 
 export default function LeftPanel(props) {
-  console.log(props, "Layout props");
   const { developer_details: dd } = props;
   return (
     <div>
@@ -11,7 +10,14 @@ export default function LeftPanel(props) {
           <h1 className="text-xl uppercase font-semibold">{dd?.name?.data}</h1>
           <p className="text-xs uppercase">{dd?.designation?.data}</p>
         </div>
-        <Image src={DP} alt="dp" />
+        <Image
+          src={process.env.NEXT_PUBLIC_DP_URL}
+          alt="dp"
+          width={500}
+          height={500}
+          layout="responsive"
+          objectFit="cover"
+        />
         <div className="p-4">
           <ul>
             {[
@@ -35,7 +41,7 @@ export default function LeftPanel(props) {
         </div>
         <div className="p-4 flex justify-center">
           <a
-            href="#"
+            href={process.env.NEXT_PUBLIC_RESUME}
             target="_blank"
             rel="noreferrer"
             className="bg-yellow-300 rounded-full pl-4 pr-1 py-1 leading-none flex items-center"
