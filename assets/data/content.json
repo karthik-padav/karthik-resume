@@ -1,0 +1,153 @@
+{
+  "developer_details": {
+    "name": { "title": "Name", "data": "Karthik Padav" },
+    "designation": {
+      "title": "Designation",
+      "data": "Senior Software Engineer"
+    },
+    "dob": { "title": "DOB", "data": "12 January 1991" },
+    "email": { "title": "Email", "data": "karthikpadav@gmail.com" },
+    "location": { "title": "Location", "data": "Bangalore" },
+    "contact_number": { "title": "Contact", "data": "+91 9901373620" }
+  },
+  "menu": [
+    { "code": "HOME" },
+    { "code": "EXPERIENCE", "title": "Experience" },
+    { "code": "SKILLS", "title": "Skills" },
+    { "code": "PROJECTS", "title": "Projects" }
+  ],
+  "about_me": [
+    {
+      "heading": "About me",
+      "content": [
+        "Software developer with experience_time_stamp experience in deploying, and developing a pixel-perfect web application. Always looking for new things to learn, with Google as my teacher and Visual studio code as my notebook.",
+        "Anything that can help me in expand my knowledge is always welcome."
+      ]
+    },
+    {
+      "heading": "RANDOM FACTS ABOUT ME",
+      "type": "bullet",
+      "content": [
+        "I’m 5’7",
+        "Unlike everyone else in the web world, I don't drink coffee.",
+        "I have never played Candy Crush or Pokémon GO.",
+        "I still love backing up stuff by emailing myself.",
+        "Not a Party animal, Always yes for a road trip.",
+        "I use a windows 10."
+      ]
+    }
+  ],
+
+  "education_histort": [
+    {
+      "title": "INTERNET ACADEMY",
+      "info": [
+        "2015",
+        "Certified HTML5, CSS3 and JavaScript developer from Internet academy ( INTERNET ACADEMY is a member of W3C )"
+      ]
+    },
+    {
+      "title": "BACHELOR OF ENGINEERING IN COMPUTER SCIENCE",
+      "info": [
+        "2012 - 2015",
+        "Shree Devi Institute of Technology, Mangalore (VTU, Belgaum)"
+      ]
+    },
+    {
+      "title": "DIPLOMA IN COMPUTER SCIENCE",
+      "info": ["2009 - 2012", "P.A Polytechnic (DTE, Karnataka)"]
+    }
+  ],
+
+  "work_history": [
+    {
+      "title": "Tecnotree, Bangalore",
+      "active": "November 2019 - PRESENT",
+      "info": ["Senior Software Engineer"],
+      "li": [
+        "Develop high-performance application using ReactJs, Redux, React Hooks, React-Router, JavaScript, Html5, Material UI, and Formik",
+        "Use of react-jsonschema-form to create A simple React component capable of using JSON Schema to declaratively build and customize web forms.",
+        "Built reusable custom components for UX-library consisting of Accordion, Filters, DropDown, Modal PopUp, and Icons.",
+        "Maintained high-level expertise in React state management strategies including Redux, and Redux Persist.",
+        "Exclusively used React-Hooks to handle application life-cycle processes.",
+        "Worked in Agile Methodologies for incremental development to deliver better applications"
+      ]
+    },
+    {
+      "title": "The Fuller Life, Bangalore",
+      "active": "OCTOBER 2017 - AUGUST 2019",
+      "info": ["Front-end developer"],
+      "li": [
+        "Implementing a mobile-first approach to existing websites.",
+        "Worked on several Health and wellness, and employee engagement websites using Vue js, React js, Redux, HTML5, Bootstrap, and Bulma.",
+        "Designing and implementing HTML email templates and newsletters for marketing campaigns."
+      ]
+    },
+    {
+      "title": "Codecraft technologies, Bangalore",
+      "active": "JANUARY 2016 - OCTOBER 2017",
+      "info": ["Front-end developer"],
+      "li": [
+        "Design dynamic and multi-browser compatible web pages using HTML, CSS, Angular",
+        "Communication-Timeline application about all Creative experiences between Creator and User/Fan using IONIC v1",
+        "Dashboard for survey app using Angular, Bootstrap",
+        "An application that helps you to book an ambulance during the time of a medical emergency using Template7 and JQuery",
+        "Worked on the E-commerce website and on several Real Estate websites using HTML5 and Bootstrap"
+      ]
+    }
+  ],
+  "skills": [
+    { "lang": "HTML", "percentage": "95%" },
+    { "lang": "Css3", "percentage": "95%" },
+    { "lang": "Javascript/jQuery", "percentage": "80%" },
+    { "lang": "React js/Redux", "percentage": "70%" },
+    { "lang": "Tailwind CSS", "percentage": "80%" },
+    { "lang": "Bootstrap", "percentage": "80%" },
+    { "lang": "Bulma", "percentage": "80%" },
+    { "lang": "Responsive Web Design", "percentage": "80%" },
+    { "lang": "Angular", "percentage": "40%" },
+    { "lang": "Vue js", "percentage": "60%" },
+    { "lang": "React Native", "percentage": "50%" },
+    { "lang": "Ionic", "percentage": "50%" },
+    { "lang": "Photoshop", "percentage": "50%" },
+    { "lang": "Wordpress", "percentage": "50%" }
+  ],
+  "projects": [
+    {
+      "title": "Movies And TV Shows",
+      "stack": "React js, Next js, Material UI",
+      "href": "https://watchmovies.howdyinternet.com/",
+      "discription": "List of all new Movies and TV shows with ratings and reviews. All contents are fetched from TMDB"
+    },
+    {
+      "title": "The Color Picker",
+      "stack": "React js, Next js, Tailwind CSS",
+      "href": "https://color-combinations.howdyinternet.com/",
+      "discription": "Color patterns inspired by thousands of beautiful color schemes."
+    },
+    {
+      "title": "All India pin code directory",
+      "stack": "React Native",
+      "href": "https://play.google.com/store/apps/details?id=com.pincode.app",
+      "discription": "This Application allows users to get Post Office details by searching Postal PIN Code or Post Office Branch Name."
+    },
+    {
+      "title": "Did You Know? - Facts Unlimited",
+      "stack": "React Native",
+      "href": "https://play.google.com/store/apps/details?id=com.did.you.know.facts",
+      "discription": "Option to share interesting facts among your friends and families or on other social media."
+    },
+    {
+      "title": "HD Gaming wallpaper",
+      "stack": "React Native",
+      "href": "https://play.google.com/store/apps/details?id=com.hd.gamingwallpaper",
+      "discription": "HD Gaming wallpaper is an Android app with a collection of wallpapers."
+    },
+    {
+      "title": "Instagram downloader",
+      "stack": "React Native",
+      "href": "https://play.google.com/store/apps/details?id=com.downloaderforinsta",
+      "discription": "Android app that helps you download Instagram Videos, Photos, IGTV & albums."
+    }
+  ]
+}
