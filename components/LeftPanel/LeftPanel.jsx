@@ -1,4 +1,3 @@
-import DP from "assets/images/dp.jpeg";
 import Image from "next/image";
 
 export default function LeftPanel(props) {

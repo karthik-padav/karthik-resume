@@ -9,7 +9,6 @@ import Layout from "components/Layout";
 const activeTabClass = "bg-yellow-300";
 
 export default function Home(props) {
-  console.log(props, "props123");
   const {
     data: {
       menu = [],
@@ -88,7 +87,6 @@ export default function Home(props) {
 export async function getStaticProps(context) {
   const baseUrl = process.env.NEXT_PUBLIC_CONTENT_URL;
   let data = {};
-  console.log(baseUrl, "baseUrl123");
   if (baseUrl) {
     data = await fetch(baseUrl);
     data = await data.json();
