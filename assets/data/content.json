@@ -116,13 +116,13 @@
     {
       "title": "Movies And TV Shows",
       "stack": "React js, Next js, Material UI",
-      "href": "https://watchmovies.howdyinternet.com/",
+      "href": "https://moviedb-hufzn3dpu-karthik-padav.vercel.app/",
       "discription": "List of all new Movies and TV shows with ratings and reviews. All contents are fetched from TMDB"
     },
     {
       "title": "The Color Picker",
       "stack": "React js, Next js, Tailwind CSS",
-      "href": "https://color-combinations.howdyinternet.com/",
+      "href": "https://color-palettes-3o1p3pp5c-karthik-padav.vercel.app/",
       "discription": "Color patterns inspired by thousands of beautiful color schemes."
     },
     {
