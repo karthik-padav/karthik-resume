@@ -20,7 +20,7 @@
     {
       "heading": "About me",
       "content": [
-        "Software developer with experience_time_stamp experience in deploying, and developing a pixel-perfect web application. Always looking for new things to learn, with Google as my teacher and Visual studio code as my notebook.",
+        "Software Developer with experience_time_stamp experience in deploying, and developing a pixel-perfect web application. Always looking for new things to learn, with Google as my teacher and Visual studio code as my notebook.",
         "Anything that can help me in expand my knowledge is always welcome."
       ]
     },
@@ -76,7 +76,7 @@
     {
       "title": "The Fuller Life, Bangalore",
       "active": "OCTOBER 2017 - AUGUST 2019",
-      "info": ["Front-end developer"],
+      "info": ["Executive - Technology"],
       "li": [
         "Implementing a mobile-first approach to existing websites.",
         "Worked on several Health and wellness, and employee engagement websites using Vue js, React js, Redux, HTML5, Bootstrap, and Bulma.",
@@ -86,7 +86,7 @@
     {
       "title": "Codecraft technologies, Bangalore",
       "active": "JANUARY 2016 - OCTOBER 2017",
-      "info": ["Front-end developer"],
+      "info": ["Trainee Software Engineer"],
       "li": [
         "Design dynamic and multi-browser compatible web pages using HTML, CSS, Angular",
         "Communication-Timeline application about all Creative experiences between Creator and User/Fan using IONIC v1",
@@ -116,13 +116,13 @@
     {
       "title": "Movies And TV Shows",
       "stack": "React js, Next js, Material UI",
-      "href": "https://watchmovies.howdyinternet.com/",
+      "href": "https://moviedb-hufzn3dpu-karthik-padav.vercel.app/",
       "discription": "List of all new Movies and TV shows with ratings and reviews. All contents are fetched from TMDB"
     },
     {
       "title": "The Color Picker",
       "stack": "React js, Next js, Tailwind CSS",
-      "href": "https://color-combinations.howdyinternet.com/",
+      "href": "https://color-palettes-3o1p3pp5c-karthik-padav.vercel.app/",
       "discription": "Color patterns inspired by thousands of beautiful color schemes."
     },
     {
