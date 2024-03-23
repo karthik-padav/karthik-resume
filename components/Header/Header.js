@@ -42,9 +42,12 @@ export default function Header({ menu, activeTab }) {
     <>
       <nav className="bg-white rounded-lg md:hidden">
         <div className="p-4 flex justify-between items-center w-full">
-          <button class="justify-center" onClick={() => toggleMenu(!isOpen)}>
+          <button
+            className="justify-center"
+            onClick={() => toggleMenu(!isOpen)}
+          >
             <svg
-              class="w-5 h-5"
+              className="w-5 h-5"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -61,7 +64,7 @@ export default function Header({ menu, activeTab }) {
           </button>
           <SocialMedia />
         </div>
-        {isOpen && <div class="w-full">{List(true)}</div>}
+        {isOpen && <div className="w-full">{List(true)}</div>}
       </nav>
 
       <nav className="bg-white rounded-lg justify-between items-center hidden md:flex">
