@@ -1,17 +1,15 @@
-import About from "components/Body/About";
 import Layout from "components/Layout";
 import { getData } from "llib/common";
+import Skills from "components/Body/Skills";
 
-export default function Home(props) {
-  const {
-    data: { about_me = [] },
-  } = props;
-
+export default function Sk(props) {
+  const { data } = props;
+  const { skills = [] } = data;
   return (
     <>
-      <Layout {...props} activeTab="/">
+      <Layout {...props} activeTab="/skills">
         <div className="mt-4">
-          <About data={about_me} />
+          <Skills skills={skills} />
         </div>
       </Layout>
     </>

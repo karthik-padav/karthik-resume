@@ -10,7 +10,7 @@ export default function About(props) {
   const myExperiance = (diff / 12).toFixed(1);
 
   return (
-    <div className="bg-white rounded-lg overflow-hidden p-10">
+    <div className="bg-white rounded-lg overflow-hidden p-4 md:p-10">
       {data.map((item, index) => (
         <div key={index} className="last:mb-0 mb-6">
           <h1 className="text-xl mb-2 uppercase relative inline-block underline underline-offset-0 decoration-yellow-300 decoration-4">

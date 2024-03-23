@@ -2,16 +2,21 @@ import SocialMedia from "components/SocialMedia";
 
 export default function Footer() {
   return (
-    <footer className="w-full max-w-container mx-auto border-t p-5 flex items-center justify-between text-sm text-gray-500">
+    <footer className="grid grid-cols-1 md:grid-cols-2 w-full max-w-container mx-auto border-t p-5 text-sm text-gray-500">
       <div>
-        <p>
+        <p className="md:text-left text-center">
           <span className="font-semibold">Phone: </span>+91 9901373620
         </p>
-        <p>
-          <span className="font-semibold">E-mail: </span>karthikpadav@gmail.com
+        <p className="md:text-left text-center">
+          <span className="font-semibold">E-mail: </span>
+          karthikpadav@gmail.com
         </p>
       </div>
-      <SocialMedia />
+      <div className="flex justify-center md:justify-end md:pt-0 pt-2">
+        <div>
+          <SocialMedia />
+        </div>
+      </div>
     </footer>
   );
 }

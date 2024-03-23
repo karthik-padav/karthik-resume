@@ -1,17 +1,22 @@
-import About from "components/Body/About";
 import Layout from "components/Layout";
 import { getData } from "llib/common";
+import Projects from "components/Body/Projects";
 
-export default function Home(props) {
+export default function Sk(props) {
+  const { data } = props;
   const {
-    data: { about_me = [] },
-  } = props;
-
+    menu = [],
+    about_me = [],
+    work_history = [],
+    education_histort = [],
+    skills = [],
+    projects = [],
+  } = data;
   return (
     <>
-      <Layout {...props} activeTab="/">
+      <Layout {...props} activeTab="/projects">
         <div className="mt-4">
-          <About data={about_me} />
+          <Projects projects={projects} />
         </div>
       </Layout>
     </>

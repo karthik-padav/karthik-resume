@@ -11,17 +11,16 @@
     "contact_number": { "title": "Contact", "data": "+91 9901373620" }
   },
   "menu": [
-    { "code": "HOME" },
-    { "code": "EXPERIENCE", "title": "Experience" },
-    { "code": "SKILLS", "title": "Skills" },
-    { "code": "PROJECTS", "title": "Projects" }
+    { "code": "HOME", "url": "/" },
+    { "code": "EXPERIENCE", "title": "Experience", "url": "/experience" },
+    { "code": "SKILLS", "title": "Skills", "url": "/skills" },
+    { "code": "PROJECTS", "title": "Projects", "url": "/projects" }
   ],
   "about_me": [
     {
       "heading": "About me",
       "content": [
-        "Software Developer with experience_time_stamp experience in deploying, and developing a pixel-perfect web application. Always looking for new things to learn, with Google as my teacher and Visual studio code as my notebook.",
-        "Anything that can help me in expand my knowledge is always welcome."
+        "I'am a Software Developer with over experience_time_stamp years of experience, Specialising in React.js. I enjoy creating user-friendly solutions and have a background in both Front-End and Back-End development. Whether it's building dynamic web applications or mobile solutions with React Native, I bring a passion for clean code and effective design to every project."
       ]
     },
     {
@@ -61,8 +60,21 @@
 
   "work_history": [
     {
+      "title": "Luxoft, Bangalore",
+      "active": "JANUARY 2023 - PRESENT",
+      "info": ["Senior Software Engineer"],
+      "li": [
+        "High-performance application built using ReactJs v18, reduxjs/toolkit with redux thunk, React Hooks, Custom Hooks, React-Router, JavaScript, Ant design, and Formik",
+        "Develop and maintain stable codebases.",
+        "Conduct bug fixes and participate in code reviews.",
+        "Ensure comprehensive documentation and reporting throughout the development lifecycle.",
+        "Code merging and building/deploying the code to the central server.",
+        "Agile Methodologies for incremental development to deliver better applications"
+      ]
+    },
+    {
       "title": "Tecnotree, Bangalore",
-      "active": "November 2019 - PRESENT",
+      "active": "November 2019 - JANUARY 2023",
       "info": ["Senior Software Engineer"],
       "li": [
         "Develop high-performance application using ReactJs, Redux, React Hooks, React-Router, JavaScript, Html5, Material UI, and Formik",

@@ -5,10 +5,10 @@ export default function ListWrapper(props) {
       <ul>
         {header && (
           <li className="flex items-center pb-8 border-l-2">
-            <div className="bg-yellow-300 rounded-full flex justify-center content-center items-center w-12 h-12 -ml-6">
+            <div className="bg-yellow-300 rounded-full flex justify-center content-center items-center md:w-12 w-8 md:h-12 h-8 -ml-4 md:-ml-6">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6"
+                className="md:h-6 h-4 md:w-6 w-4"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -28,11 +28,11 @@ export default function ListWrapper(props) {
         {list.map((item, index) => (
           <li
             key={index}
-            className="relative -mt-4 last:pb-0 pb-8 last:border-l-0 border-l-2 before:content=['']  before:bg-white before:border-4 before:border-yellow-300 before:rounded-full before:w-4 before:h-4 before:flex before:absolute before:-left-2 before:top-2"
+            className="relative -mt-4 last:pb-0 pb-8 last:border-l-0 border-l-2 before:content=['']  before:bg-white before:border-4 before:border-yellow-300 before:rounded-full before:w-4 before:h-4 before:flex before:absolute before:-left-2 before:top-1 md:before:top-2"
           >
-            <div className="pl-8">
+            <div className="md:pl-8 pl-4">
               {item?.title && (
-                <p>
+                <p className="leading-normal">
                   <span className="font-medium">{item.title}</span>
                   <span className="text-gray-600 text-sm">
                     {" "}
@@ -41,7 +41,7 @@ export default function ListWrapper(props) {
                 </p>
               )}
               {(item?.info || []).map((i, index) => (
-                <p className="text-sm text-gray-600" key={index}>
+                <p className="text-sm text-gray-600 leading-normal" key={index}>
                   {i}
                 </p>
               ))}
@@ -50,7 +50,7 @@ export default function ListWrapper(props) {
                   {item.li.map((i, index) => (
                     <li
                       key={index}
-                      className="text-sm text-gray-600 before:content-['\2022'] before:text-yellow-300 before:text-2xl before:mr-2 leading-none"
+                      className="md:ml-0 ml-2 leading-normal text-sm text-gray-600 list-disc"
                     >
                       {i}
                     </li>
