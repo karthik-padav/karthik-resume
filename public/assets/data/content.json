@@ -109,10 +109,12 @@
     }
   ],
   "skills": [
+    { "lang": "React js/Redux", "percentage": "70%" },
+    { "lang": "Next js", "percentage": "70%" },
+    { "lang": "Node js", "percentage": "40%" },
     { "lang": "HTML", "percentage": "95%" },
     { "lang": "Css3", "percentage": "95%" },
     { "lang": "Javascript/jQuery", "percentage": "80%" },
-    { "lang": "React js/Redux", "percentage": "70%" },
     { "lang": "Tailwind CSS", "percentage": "80%" },
     { "lang": "Bootstrap", "percentage": "80%" },
     { "lang": "Bulma", "percentage": "80%" },
