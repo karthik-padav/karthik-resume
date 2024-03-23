@@ -5,8 +5,10 @@ export default function LeftPanel(props) {
   return (
     <div className="bg-white rounded-lg">
       <div className="p-4">
-        <h1 className="text-xl uppercase font-semibold">{dd?.name?.data}</h1>
-        <p className="text-xs uppercase">{dd?.designation?.data}</p>
+        <h1 className="text-xl text-center uppercase font-semibold">
+          {dd?.name?.data}
+        </h1>
+        <p className="text-xs text-center uppercase">{dd?.designation?.data}</p>
       </div>
       <Image
         src={process.env.NEXT_PUBLIC_DP_URL}
