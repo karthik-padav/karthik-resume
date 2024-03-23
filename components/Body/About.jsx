@@ -1,5 +1,7 @@
+import Skills from "./Skills";
+
 export default function About(props) {
-  const { data } = props;
+  const { data, skills = [] } = props;
   const currentDate = new Date();
   const started = new Date("Jan 01 2016");
   const diff =
@@ -38,6 +40,11 @@ export default function About(props) {
           </ul>
         </div>
       ))}
+
+      <h1 className="text-xl mb-6 uppercase relative inline-block underline underline-offset-0 decoration-yellow-300 decoration-4">
+        Skills:
+      </h1>
+      <Skills skills={skills} />
     </div>
   );
 }

@@ -13,7 +13,6 @@
   "menu": [
     { "code": "HOME", "url": "/" },
     { "code": "EXPERIENCE", "title": "Experience", "url": "/experience" },
-    { "code": "SKILLS", "title": "Skills", "url": "/skills" },
     { "code": "PROJECTS", "title": "Projects", "url": "/projects" }
   ],
   "about_me": [
@@ -21,18 +20,6 @@
       "heading": "About me",
       "content": [
         "I'am a Software Developer with over experience_time_stamp years of experience, Specialising in React.js. I enjoy creating user-friendly solutions and have a background in both Front-End and Back-End development. Whether it's building dynamic web applications or mobile solutions with React Native, I bring a passion for clean code and effective design to every project."
-      ]
-    },
-    {
-      "heading": "RANDOM FACTS ABOUT ME",
-      "type": "bullet",
-      "content": [
-        "I’m 5’7",
-        "Unlike everyone else in the web world, I don't drink coffee.",
-        "I have never played Candy Crush or Pokémon GO.",
-        "I still love backing up stuff by emailing myself.",
-        "Not a Party animal, Always yes for a road trip.",
-        "I use a windows 10."
       ]
     }
   ],

@@ -4,14 +4,14 @@ import { getData } from "llib/common";
 
 export default function Home(props) {
   const {
-    data: { about_me = [] },
+    data: { about_me = [], skills },
   } = props;
 
   return (
     <>
       <Layout {...props} activeTab="/">
         <div className="mt-4">
-          <About data={about_me} />
+          <About data={about_me} skills={skills} />
         </div>
       </Layout>
     </>
