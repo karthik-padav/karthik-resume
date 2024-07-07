@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function LeftPanel(props) {
   const { developer_details: dd } = props;
   return (
-    <div className="bg-white rounded-lg">
+    <div>
       <div className="p-4">
         <h1 className="text-xl text-center uppercase font-semibold">
           {dd?.name?.data}
