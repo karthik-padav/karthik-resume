@@ -4,14 +4,7 @@ import Projects from "components/Body/Projects";
 
 export default function Sk(props) {
   const { data } = props;
-  const {
-    menu = [],
-    about_me = [],
-    work_history = [],
-    education_histort = [],
-    skills = [],
-    projects = [],
-  } = data;
+  const { projects = [] } = data;
   return (
     <>
       <Layout {...props} activeTab="/projects">
