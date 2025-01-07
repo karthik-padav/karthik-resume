@@ -6,6 +6,7 @@ export default function Home(props) {
   const {
     data: { about_me = [], skills },
   } = props;
+  console.log(props, "props123");
 
   return (
     <>

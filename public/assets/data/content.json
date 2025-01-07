@@ -13,7 +13,7 @@
   "menu": [
     { "code": "HOME", "url": "/" },
     { "code": "EXPERIENCE", "title": "Experience", "url": "/experience" },
-    { "code": "PROJECTS", "title": "Projects", "url": "/projects" }
+    { "code": "PROJECTS", "title": "Hobby Projects", "url": "/projects" }
   ],
   "about_me": [
     {

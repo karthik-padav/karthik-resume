@@ -2,7 +2,7 @@ export default function Projects({ projects = [] }) {
   return (
     <div className="bg-white rounded-lg overflow-hidden p-4 md:p-10">
       <h1 className="text-xl mb-6 uppercase relative inline-block underline underline-offset-0 decoration-yellow-300 decoration-4">
-        What can a <span className="font-medium">Web developer</span> do, you
+        What can a <span className="font-medium">Software Engineer</span> do, you
         ask?
       </h1>
 
