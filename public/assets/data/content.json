@@ -115,6 +115,12 @@
   ],
   "projects": [
     {
+      "title": "Photo Maker",
+      "stack": "Next js, Next Auth, Tailwind CSS, shadcn, Hugging face",
+      "href": "https://dpg.vercel.app/",
+      "discription": " Create stunning profile pictures effortlessly with AI-powered background removal, custom backgrounds, outlines, and filters."
+    },
+    {
       "title": "Quick Logo",
       "stack": "Next js, Next Auth, Tailwind CSS, shadcn",
       "href": "https://quicklogo.vercel.app/",
