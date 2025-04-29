@@ -34,10 +34,10 @@ export default function ListWrapper(props) {
               {item?.title && (
                 <p className="leading-normal">
                   <span className="font-medium">{item.title}</span>
-                  <span className="text-gray-600 text-sm">
+                  {item.active && <span className="text-gray-600 text-sm">
                     {" "}
                     - {item.active}
-                  </span>
+                  </span>}
                 </p>
               )}
               {(item?.info || []).map((i, index) => (
