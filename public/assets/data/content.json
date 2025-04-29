@@ -115,10 +115,22 @@
   ],
   "projects": [
     {
-      "title": "Photo Maker",
-      "stack": "Next js, Next Auth, Tailwind CSS, shadcn, Hugging face",
-      "href": "https://dpg.vercel.app/",
-      "discription": " Create stunning profile pictures effortlessly with AI-powered background removal, custom backgrounds, outlines, and filters."
+      "title": "Profile Picture Maker",
+      "stack": "Next js, Next Auth, Tailwind CSS, shadcn, @imgly/background-removal, Hugging face",
+      "href": "https://www.imageflexstudio.com/profile-picture-maker",
+      "discription": "Remove Background, Edit, And Customize Your Profile Picture in Seconds!"
+    },
+    {
+      "title": "Text Behind Image",
+      "stack": "Next js, Next Auth, Tailwind CSS, shadcn, @imgly/background-removal, Hugging face, konvajs",
+      "href": "https://www.imageflexstudio.com/text-behind-image",
+      "discription": "Create stunning text behind image designs in seconds—free, unlimited, and hassle-free!"
+    },
+    {
+      "title": "Image Compressor",
+      "stack": "Next js, Next Auth, Tailwind CSS, shadcn",
+      "href": "https://www.imageflexstudio.com/compress-image",
+      "discription": "Compress Image Files Effortlessly — Compress Image Online For Free Without Compromising Quality!"
     },
     {
       "title": "Quick Logo",

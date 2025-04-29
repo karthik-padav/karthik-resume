@@ -13,11 +13,10 @@ export default function Projects({ projects = [] }) {
             rel="noreferrer"
             target="_blank"
             key={index}
-            className="bg-gray-100 p-6 rounded-lg overflow-hidden"
+            className="bg-gray-100 p-6 rounded-lg overflow-hidden transition duration-200 hover:shadow-lg"
           >
-            <div className="transform transition duration-200 hover:scale-110">
+            <div className="transform transition duration-200">
               <p className="font-medium">{item.title}</p>
-              <p className="text-gray-600 text-sm">{item.stack}</p>
               <p className="text-gray-600 text-sm mt-2">{item.discription}</p>
             </div>
           </a>
