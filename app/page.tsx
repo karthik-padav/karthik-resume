@@ -224,7 +224,7 @@ export default function Home() {
               I'm always open to discussing new projects, creative ideas, or
               opportunities to be part of your vision.
             </p>
-            <div className="flex gap-4">
+            <div className="grid grid-cols-1 md:flex flex-wrap gap-4">
               {[...contact, ...profiles].map(
                 (i: {
                   name: string;
@@ -236,7 +236,7 @@ export default function Home() {
                     <a
                       href={i.url}
                       aria-describedby={i.name}
-                      className="peer inline-flex items-center gap-2 px-6 py-3 bg-green-500 hover:bg-green-600 text-gray-900 font-semibold rounded-lg transition-colors"
+                      className="w-full md:w-auto peer inline-flex items-center justify-center gap-2 px-6 py-3 bg-green-500 hover:bg-green-600 text-gray-900 font-semibold rounded-lg transition-colors"
                     >
                       <i.icon className="w-5 h-5" />
                       {i.name}
