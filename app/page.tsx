@@ -29,12 +29,12 @@ export default function Home() {
       <header className="fixed top-0 left-0 right-0 z-50 border-b border-gray-800 bg-gray-950 shadow-md">
         <div className="max-w-6xl mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <div className="flex items-center gap-2">
+            <a className="flex items-center gap-2" href="#me">
               <Terminal className="w-6 h-6 text-green-400" />
               <span className="text-xl font-mono font-bold">
                 {"<Developer />"}
               </span>
-            </div>
+            </a>
             <nav className="gap-6 hidden md:flex">
               {["about", "experience", "skills", "projects", "contact"].map(
                 (section) => (
@@ -53,7 +53,10 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="border-b border-gray-800 bg-gradient-to-b from-gray-950 to-gray-900">
+      <section
+        className="border-b border-gray-800 bg-gradient-to-b from-gray-950 to-gray-900"
+        id="me"
+      >
         <div className="max-w-6xl mx-auto px-4 py-20">
           <div className="mb-4">
             <Code className="w-12 h-12 text-green-400 mb-4" />
