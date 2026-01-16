@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { Code, Terminal, Folder, ExternalLink } from "lucide-react";
 import { contants } from "@/utils/constant";
+import Image from "next/image";
 
 export default function Home() {
   const { developerDetails, profiles, experience, skills, projects, contact } =
@@ -81,8 +82,7 @@ export default function Home() {
                 href={i.url}
                 className="flex items-center gap-2 px-6 py-3 bg-green-500 hover:bg-green-600 text-gray-900 font-semibold rounded-lg transition-colors"
               >
-                <i.icon className="w-5 h-5" />
-                {i.name}
+                <Image src={i.icon} alt={i.name} width={30} height={30} />
               </a>
             ))}
           </div>
@@ -224,8 +224,8 @@ export default function Home() {
               I'm always open to discussing new projects, creative ideas, or
               opportunities to be part of your vision.
             </p>
-            <div className="grid grid-cols-1 md:flex flex-wrap gap-4">
-              {[...contact, ...profiles].map(
+            <div className="flex flex-wrap gap-4">
+              {contact.map(
                 (i: {
                   name: string;
                   icon: any;
@@ -236,10 +236,10 @@ export default function Home() {
                     <a
                       href={i.url}
                       aria-describedby={i.name}
+                      target="_blank"
                       className="w-full md:w-auto peer inline-flex items-center justify-center gap-2 px-6 py-3 bg-green-500 hover:bg-green-600 text-gray-900 font-semibold rounded-lg transition-colors"
                     >
-                      <i.icon className="w-5 h-5" />
-                      {i.name}
+                      <Image src={i.icon} alt={i.name} width={30} height={30} />
                     </a>
 
                     {i?.tooltip && (

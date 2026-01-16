@@ -1,4 +1,12 @@
-import { Github, Linkedin, Mail, MessageCircle, Phone } from "lucide-react";
+import {
+  Call,
+  Email,
+  Github,
+  LinkedIn,
+  Twitter,
+  WhatsApp,
+} from "@/assets/icons";
+import { Mail, MessageCircle, Phone } from "lucide-react";
 
 export const contants = {
   developerDetails: {
@@ -8,31 +16,49 @@ export const contants = {
     desc: "Software Developer with over 9 years of experience, Specialising in React js/Next js. I enjoy creating user-friendly solutions and have a background in both Front-End and Back-End development. Whether it's building dynamic web applications or mobile solutions with React Native, I bring a passion for clean code and effective design to every project.",
   },
   profiles: [
-    { name: "GitHub", url: "https://github.com/karthik-padav", icon: Github },
+    {
+      name: "GitHub",
+      url: "https://github.com/karthik-padav",
+      icon: Github,
+      tooltip: "GitHub",
+    },
     {
       name: "LinkedIn",
       url: "https://www.linkedin.com/in/karthik-padav/",
-      icon: Linkedin,
+      icon: LinkedIn,
+      tooltip: "LinkedIn",
     },
   ],
   contact: [
     {
       name: "WhatsApp",
       url: "whatsapp://send?text=``&phone=+919901373620",
-      icon: MessageCircle,
+      icon: WhatsApp,
       tooltip: "+919901373620",
     },
     {
       name: "Email",
       url: "mailto:karthikpadav@gmail.com",
-      icon: Mail,
+      icon: Email,
       tooltip: "karthikpadav@gmail.com",
     },
     {
       name: "Call",
       url: "tel:+919901373620",
-      icon: Phone,
+      icon: Call,
       tooltip: "+919901373620",
+    },
+    {
+      name: "LinkedIn",
+      url: "https://www.linkedin.com/in/karthik-padav/",
+      icon: LinkedIn,
+      tooltip: "LinkedIn",
+    },
+    {
+      name: "X",
+      url: "https://x.com/buildx91",
+      icon: Twitter,
+      tooltip: "X",
     },
   ],
   experience: [
